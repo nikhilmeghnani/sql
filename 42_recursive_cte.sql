@@ -2,15 +2,15 @@
 -- Write a SQL query  to duplicate the rows based on total count in output table by adding two new columns ID and CatID
 
 -- #	ItemName	TotalQuantity
--- 1	Apple	2
--- 2	Orange	3
+-- 1	Apple	    2
+-- 2	Orange	  3
 
 -- #	id	itemname	catid	totalquantity
--- 1	1	Apple	1	2
--- 2	2	Apple	2	2
--- 3	3	Orange	1	3
--- 4	4	Orange	2	3
--- 5	5	Orange	3	3
+-- 1	1	Apple	      1	    2
+-- 2	2	Apple     	2	    2
+-- 3	3	Orange	    1	    3
+-- 4	4	Orange	    2	    3
+-- 5	5	Orange	    3	    3
 
 with cte_a(itemname, catid, totalquantity) as
 (
