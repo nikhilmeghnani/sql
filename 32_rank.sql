@@ -1,5 +1,5 @@
 -- Write a SQL query to get the output as shown in the Output tables
-
+-- get max and min salary per dept no
 -- -- Input:
 -- #	EmpName	DeptName	DeptNo	Salary
 -- 1	Mark	HR	        101	    30,000
