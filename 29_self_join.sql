@@ -8,6 +8,7 @@
 -- 104			David			103
 
 ------------------------------------------------------------------------------------------------
+-- below will not include the null value
 select e.employeename, m.employeename as managername
 from employee_1 e
 inner join employee_1 m 
